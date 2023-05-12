@@ -1,0 +1,126 @@
+/* banner */
+.banner-pages{
+    background: url(../images/Photopages.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 60vh;
+    display: flex;
+    align-items: flex-end;
+    border: 0px solid red;
+}
+.banner-pages-content{
+    padding: 2%;
+    background-color: #fff;
+    width: 30%;
+    margin: 0 auto;
+    border-radius: 37px 37px 0px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* pages */
+.pages{
+    padding: 15% 0;
+}
+.pages-content{
+    display: flex;
+    justify-content: center;
+}
+.pages-comment{
+    display: flex;
+    justify-content: center;
+    border: 0px solid;
+    width: 80%;
+}
+.pattern{
+    width: 20%;
+   
+}
+.des.des-pages-banner{
+    font-style: italic;
+    font-family: "DancingScript-SemiBold";
+    font-weight: bold;
+    font-size: 2rem;
+    color: black;
+}
+.pages-comment-text{
+    text-align: center;
+    padding: 5% 0;
+    width: 40%;
+}
+.des-pg{
+    padding: 5% 0 ;
+}
+/* pages main */
+.pages-main{
+    padding: 15% 0;
+    border: 0px solid;
+    
+}
+ .pages-main-content{
+    display: flex;
+    align-items: center;
+} 
+.pages-main-text{
+    width: 50%;
+    
+}
+.btn.btn-none{
+    display: none;
+}
+.pages-main-img{
+    width: 50%;
+}
+.img-main-pages{
+    width: 100%;
+    border-radius: 70px;
+}
+.des.des-pages{
+    padding: 2% 0 5%;
+}
+.pages-main-content.pages-reverse{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 17%;
+}
+.pages-main-text-reverse{
+    margin-left: 5% ;
+}
+/* mail box */
+.mail-box-content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.mail-box-text{
+    width: 60%;
+    border-bottom: 1px solid ;
+    margin: 0 auto;
+    padding-bottom: 5%;
+    
+}
+.mail-box-text{
+    text-align: center;
+}
+.mail-inf{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 5%;
+    text-align: left;
+    padding: 10% 0;
+}
+.mail-inf-name{
+    border-bottom: 1px solid #000000;
+    width: 100%;
+    padding: 5% 0;
+    margin-bottom: 15%;
+}
+.des.des-mail{
+    text-align: left;
+}
+.btn.btnn-mail{
+    
+    margin: 8% 0 12%;
+}

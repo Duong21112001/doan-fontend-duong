@@ -1,0 +1,36 @@
+/* banner */
+.banner-404 {
+   
+    height: 100vh;
+    
+}
+.banner-content-404{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.banner-404-text{
+    width: 40%;
+    border: 0px solid;
+    
+}
+.banner-404-img{
+    width: 50%;
+}
+.img-404{
+    width: 100%;
+    border-bottom-left-radius: 353px;
+    height: 100vh;
+}
+.title-page.title-page-404{
+    color: #CDA274;
+    font-weight: bold;
+    font-size: 250px;
+    line-height: 125%;
+}
+.title-item.title-item-404{
+    font-weight: bold;
+    font-size: 2.5rem;
+    line-height: 150%;
+    margin-bottom: 10%;
+}

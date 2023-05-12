@@ -1,0 +1,37 @@
+@media(max-width :1200px) {
+    .banner-pages{
+        height: 40vh;
+    }
+}
+@media(max-width :768px){
+    .title-page{
+        font-size: 30px;
+    }
+    .banner-pages{
+        height: 40vh;
+    }
+    .services-content{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+@media(max-width :480px){ 
+    .title-page{
+        font-size: 25px;
+    }
+    .footer-list {
+        display: none;
+    }
+    .footer-list:first-child {
+        display: block;
+    }
+    .services-content {
+        grid-template-columns: repeat(1,1fr);
+    }
+    .home-work-content {
+        padding: 20px 10px;
+    }
+    .banner-pages {
+        height: 30vh;
+    }
+}

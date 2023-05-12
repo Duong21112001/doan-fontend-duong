@@ -1,0 +1,38 @@
+@media(max-width :1200px) {
+    .banner-user-content{
+        width: 70%;
+    }
+}
+@media(max-width :768px){
+    .banner-user-content{
+        width: 85%;
+    
+    }
+    .title-content{
+        font-size: 2.57rem;
+    }
+    .user-inp::placeholder{
+        font-size: 1.1rem;   
+    }
+    .des.des-user{
+        font-size: 0.9rem;
+    }
+    .user-login{
+        font-size: 19px;
+    }
+}
+@media(max-width :480px){
+    .banner-user-content{
+        width: 100%;
+        font-size: 1.57rem;
+    }
+    .user-inp::placeholder{
+        font-size: 0.9rem;   
+    }
+    .des.des-user{
+        font-size: 0.7rem;
+    }
+    .user-login{
+        font-size: 17px;
+    }
+}

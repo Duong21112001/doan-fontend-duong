@@ -1,0 +1,42 @@
+@media(max-width:1200px){
+    .title-page.title-page-404{
+        font-size: 200px;
+    }
+    .img-404{
+        height: 60vh;
+    }
+}
+@media(max-width:786px){
+    .title-page.title-page-404{
+        font-size: 150px;
+    }
+    .title-item.title-item-404{
+        font-size: 1.5rem;
+    }
+    .img-404{
+        height: 60vh;
+    }
+}
+@media(max-width:480px){
+    .banner-content-404{
+        padding-top: 20%;
+    }
+    .title-page.title-page-404{
+        font-size: 80px;
+    }
+    .title-item.title-item-404{
+        font-size: 1.2rem;
+    }
+    .btn{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 10px 20px;
+    }
+    .des.text.text-banner{
+        font-size: 0.7rem;
+    }
+    .img-404{
+        height: 40vh;
+        border-bottom-left-radius:100px;
+    }
+}

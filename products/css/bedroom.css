@@ -1,0 +1,44 @@
+.banner-bedroom{
+    background: url('../../images/Photo\ \(5\).jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 60vh;
+    display: flex;
+}
+.banner-livingroom{
+    background: url('../../images/Photo\ \(8\).jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 60vh;
+    display: flex;
+}
+.banner-kitchan{
+    background: url('../../images/Photo\ \(7\).jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 60vh;
+    display: flex;
+}
+.banner-workroom{
+    background: url('../../images/Photo\ \(9\).jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 60vh;
+    display: flex;
+}
+.des-detail{
+    margin: 5% 0 10%;
+}
+.detail-content-text{
+    margin: 18% auto;
+    text-align: center;
+}
+.detail-img{
+
+    width: 80%;
+    border-radius: 70px;
+}

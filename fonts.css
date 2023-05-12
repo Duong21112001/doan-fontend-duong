@@ -1,0 +1,15 @@
+@font-face{
+    font-family: 'Jost', sans-serif;
+}
+@font-face {
+    font-family: "Montserrat-Medium";
+    src: url(./fonts/Montserrat/static/Montserrat-Medium.ttf);
+}
+@font-face {
+    font-family: "DancingScript-Regular(1).ttf";
+    src: url(./fonts/Dancing_Script/static/DancingScript-Regular\(1\).ttf);
+}
+@font-face {
+    font-family: "DancingScript-SemiBold";
+    src: url(./fonts/Dancing_Script/static/DancingScript-SemiBold.ttf);
+}

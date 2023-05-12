@@ -1,0 +1,78 @@
+/* banner */
+.banner-pages{
+    background: url(../images/photopages3.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 60vh;
+    display: flex;
+    align-items: flex-end;
+    border: 0px solid red;
+}
+.banner-pages-content{
+    padding: 2%;
+    background-color: #fff;
+    width: 30%;
+    margin: 0 auto;
+    border-radius: 37px 37px 0px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* services */
+.services{
+    padding: 15% 0;
+}
+.services-content{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    
+}
+.services-item{
+    padding: 10% 0 20%;
+    border: 0px solid;
+}
+.services-item:hover{
+    background: #F4F0EC;
+    border-radius: 30px;
+}
+/* home we work */
+.home-work-content{
+    background: #F4F0EC;
+    border-radius: 70px;
+    padding: 12% 8% 5%;
+}
+.home-work-title{
+    text-align: center;
+    padding: 0 12%;
+}
+.home-work-main{
+    padding-top: 10%;
+}
+.home-work-main-item{
+    display: flex;
+    justify-content: space-between;
+}
+.homw-work-img{
+    width: 50%;
+    border-radius:0px 123px 0px 326.5px;
+}
+.home-work-item-content{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.home-item-img{
+    width: 100%;
+}
+.title-homework{
+    font-size: 2.5rem;
+    line-height: 125%;
+    margin: 13% 0 5%;
+}
+.home-work-main-item.home-reverse{
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 13% 0;
+}

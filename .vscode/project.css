@@ -1,0 +1,109 @@
+/* banner */
+.banner-pages{
+    background: url(../images/project.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 60vh;
+    display: flex;
+    align-items: flex-end;
+}
+.banner-pages-content{
+    padding: 2%;
+    background-color: #fff;
+    width: 30%;
+    margin: 0 auto;
+    border-radius: 37px 37px 0px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* projects */
+/* categories */
+.projects{
+    padding: 15% 0;
+}
+/* categories */
+.categories{
+    border: 1px solid #CDA274;
+    border-radius: 18px;
+    display: flex;
+    width: 60%;
+    text-align: center;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+.categories-item{
+    padding: 5% 7%;
+    border: 0px solid;
+}
+.des.des-categories{
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 125%;
+}
+.link-categories{
+    border: 0px solid;
+    padding: 2% 6%;
+}
+.link-categories:hover{
+    background: #CDA274;
+    border-radius: 18px;
+
+}
+.des-categories:hover{
+   
+    color: #fff;
+}
+/* project */
+.project{
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin: 0 auto;
+    gap: 2% 4%;
+}
+.projects-img{
+    width: 100%;
+}
+.project-item.item-position{
+    position: relative;
+    bottom: 33%;
+    z-index: 1;
+}
+.item-position-last{
+    position: relative;
+    bottom: 100%;   
+}
+.project-item.item-position-nth{
+    position: relative;
+    bottom: 50%; 
+}
+/* pagination */
+.pagination{
+    display: flex;
+    width: 20%;
+    justify-content: space-between;
+    margin: -15% auto 0;
+}
+.pagination-item{
+    padding:3% 4%;
+    display: flex;
+    align-items: center;
+    border-radius: 50px;
+    border:1px solid #CDA274;
+    justify-content: center;
+}
+.pagination-item:hover{
+    background: #CDA274;
+}
+.des-mini{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+}
+.img-link-project.des-mini{
+    width: 30%;
+}
